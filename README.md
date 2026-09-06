@@ -1,4 +1,4 @@
-# 🐱 Single Image Data Augmentation
+# Single Image Data Augmentation
 
 ## 📌 Overview
 
@@ -22,7 +22,7 @@ The main objectives of this project are:
 
 ---
 
-## 🖼️ Input Dataset
+## Input Dataset
 
 The project uses a single image:
 
@@ -34,24 +34,24 @@ The image is used as the source from which multiple augmented versions are gener
 
 ---
 
-## 🔄 Data Augmentation Techniques
+## Data Augmentation Techniques
 
 The notebook demonstrates how an original image can be transformed into different versions using techniques such as:
 
-* 🔄 **Rotation** – Rotates the image by different angles.
-* ↔️ **Horizontal Flipping** – Creates a mirror image horizontally.
-* ↕️ **Vertical Flipping** – Flips the image vertically.
-* 🔍 **Zooming** – Changes the image scale.
-* ↔️ **Width Shifting** – Moves the image horizontally.
-* ↕️ **Height Shifting** – Moves the image vertically.
-* 📐 **Shearing** – Changes the geometric shape of the image.
-* 🎨 **Other transformations** – Depending on the augmentation configuration used in the notebook.
+*  **Rotation** – Rotates the image by different angles.
+*  **Horizontal Flipping** – Creates a mirror image horizontally.
+*  **Vertical Flipping** – Flips the image vertically.
+*  **Zooming** – Changes the image scale.
+*  **Width Shifting** – Moves the image horizontally.
+*  **Height Shifting** – Moves the image vertically.
+*  **Shearing** – Changes the geometric shape of the image.
+*  **Other transformations** – Depending on the augmentation configuration used in the notebook.
 
 These transformations create different but related versions of the same original image.
 
 ---
 
-## 🧠 How Data Augmentation Works
+## How Data Augmentation Works
 
 Instead of collecting a large number of images manually, data augmentation applies controlled transformations to existing images.
 
@@ -75,7 +75,7 @@ The generated images can then be used as additional training examples for a comp
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 1. Load the original `cat pic.jpg` image.
 2. Convert the image into a suitable format for processing.
@@ -88,7 +88,7 @@ The generated images can then be used as additional training examples for a comp
 
 ---
 
-## 💡 Why Data Augmentation Is Important
+## Why Data Augmentation Is Important
 
 Data augmentation is especially useful when the available training dataset is small.
 
@@ -105,7 +105,7 @@ However, augmentations should be realistic. Excessive or inappropriate transform
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **Jupyter Notebook**
@@ -116,7 +116,7 @@ However, augmentations should be realistic. Excessive or inappropriate transform
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 single-image-data-augmentation/
@@ -128,7 +128,7 @@ single-image-data-augmentation/
 
 ---
 
-## 📊 Key Learning Outcomes
+## Key Learning Outcomes
 
 Through this project, I learned:
 
@@ -141,7 +141,7 @@ Through this project, I learned:
 
 ---
 
-## 🚀 Possible Future Improvements
+## Possible Future Improvements
 
 This experiment can be extended by:
 
@@ -155,7 +155,7 @@ This experiment can be extended by:
 
 ---
 
-## 📌 Project Purpose
+## Project Purpose
 
 This project is part of my **Machine Learning / Deep Learning learning journey**, focusing on practical understanding of **computer vision and image preprocessing techniques**.
 
@@ -163,6 +163,6 @@ Rather than only studying data augmentation theoretically, this notebook demonst
 
 ---
 
-## ⭐ Final Takeaway
+## Final Takeaway
 
 **Data augmentation is a powerful technique for creating diverse training examples from existing images.** Even a single image can be transformed in many ways, helping us understand how augmentation works and why it is commonly used when training deep learning and computer vision models.
